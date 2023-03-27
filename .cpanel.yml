@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mattdigital/public_html/
+    - /bin/cp success.txt $DEPLOYPATH
