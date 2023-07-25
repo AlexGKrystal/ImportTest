@@ -2,4 +2,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/ghheating/public_html/wp-content/themes/test/
     - rm -rf $DEPLOYPATH
+    - mkdir $DEPLOYPATH
     - /bin/cp -R * $DEPLOYPATH
